@@ -86,6 +86,8 @@ p {
 
 .text-faded {
   color: rgba(245, 245, 245, 0.7);
+  font-size: 30px;
+  margin-left: auto;
 }
 
 .text-dark {
@@ -564,7 +566,7 @@ img::-moz-selection {
 
 /* Hide the images by default */
 .mySlides {
-  display: none;
+  display: run-in;
 }
 
 /* Next & previous buttons */
@@ -637,7 +639,7 @@ img::-moz-selection {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 2.5s;
 }
 
 @-webkit-keyframes fade {
